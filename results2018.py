@@ -7,9 +7,8 @@ from twilio.rest import Client
 
 # Confidential Information Lah!
 account_sid = "AC97547acb1712a37e129dd77b214e70a8"
-# Feel free to use these tokens ~ but dont spam kay? I will monitor
 # Please keep your automation to like a few times an hour only
-auth_token  = "84f65a027c6a30050fbec9d8c94bd64d"
+auth_token  = "<PM me for a token>"
 client = Client(account_sid, auth_token)
 
 browser = mechanicalsoup.StatefulBrowser()
@@ -44,5 +43,5 @@ else:
     print("TADA! Your results might be out!")
     message = client.messages.create(
         to="<Your Num>", 
-        from_="+15017250604",
+        from_="+19376697074",
         body="Your results are out! OMG!")
